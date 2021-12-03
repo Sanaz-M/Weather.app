@@ -1,0 +1,10 @@
+#city-info{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#main-body{
+    background-color: rgb(25, 22, 32);
+    color: rgb(218, 214, 211);
+    min-height: 100vh;
+}

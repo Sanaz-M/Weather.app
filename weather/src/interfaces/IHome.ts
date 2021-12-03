@@ -1,28 +1,29 @@
 interface IHome {
-    city: {
+    
         coord?: {
             lon?: number,
             lat?: number
         },
 
-        weather?: 
+        weather: 
+        
             {
-                id?: number,
-                main?: string,
-                description?: string,
-                icon?: number | string
+                id: number,
+                main: string,
+                description: string,
+                icon: number | string
             }
         ,
 
         base?: string,
 
-        main?: {
-            temp?: number,
-            feels_like?: number,
-            temp_min?: number,
-            temp_max?: number,
-            pressure?: number,
-            humidity?: number,
+        main: {
+            temp: number,
+            feels_like: number,
+            temp_min: number,
+            temp_max: number,
+            pressure: number,
+            humidity: number,
         },
         visibility?: number,
         wind?: {
@@ -30,8 +31,8 @@ interface IHome {
             deg?: number
         },
 
-        clouds?: {
-            all?: number
+        clouds: {
+            all: number
         },
 
         dt?: number,
@@ -49,7 +50,7 @@ interface IHome {
         id?: number,
         name?: string,
         cod?: number
-    }
+
 }
 
 export default IHome
